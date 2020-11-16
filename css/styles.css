@@ -1,0 +1,40 @@
+/* 
+	I learned about this css here:
+	Link: https://www.w3schools.com/css/css_form.asp
+*/
+
+header, p {
+	text-align: center;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+ }
+
+.container {
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type=text], select {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.small {
+	font-size: 0.5em;
+}
